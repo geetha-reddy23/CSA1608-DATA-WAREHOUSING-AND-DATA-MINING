@@ -1,0 +1,14 @@
+
+# Create vector
+x <- c(12, 18, 25, 18, 30, 22,
+       18, 25, 30, 18)
+
+# Calculate Mean
+mean(x)
+
+# Calculate Median
+median(x)
+
+# Calculate Mode
+mode_value <- as.numeric(names(which.max(table(x))))
+print(mode_value)
